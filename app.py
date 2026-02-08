@@ -51,3 +51,7 @@ if start_button:
         st.session_state['df_experiment_results'].reset_index(drop=True)
 
 st.write(st.session_state['df_experiment_results'])
+
+git add .
+git commit -am 'version 1'
+git push
